@@ -11,7 +11,7 @@ export const LandingPageHeader = () => {
     return (
         <header className="header">
             <div className="logo">Logo
-                <img ></img>
+                <img></img>
             </div>
             <div className="menu">
                 <li><a href='#/'>Premium</a></li>
