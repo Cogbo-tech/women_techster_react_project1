@@ -1,0 +1,23 @@
+.buttons{
+    
+}
+
+.button1{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    color:white;
+    background-color: #000000;
+    margin: 10px;
+    border: none
+}
+
+.button2{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    background-color:#1D75DE;
+    color: white;
+    margin: 10px;
+    border: 2px solid white;
+}

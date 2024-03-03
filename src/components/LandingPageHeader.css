@@ -1,0 +1,22 @@
+
+.header{
+    height: 60px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu{
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-between;
+}
+.menu li{
+    list-style: none;
+
+}
+.menu li a{
+    color: #B3B3B3;
+    text-decoration: none;
+    list-style: none;
+}
