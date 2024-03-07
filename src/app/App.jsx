@@ -3,16 +3,20 @@ import '../app/App.css';
 import { LandingPageHeader } from '../components/LandingPageHeader';
 import { HeroPage } from '../components/HeroPage';
 import { ButtonHero } from '../components/ButtonHero';
+import { Logo } from '../components/Logo';
+
 
 function App() {
   return (
-    <div>
-      <LandingPageHeader></LandingPageHeader>
+    <>
+      <LandingPageHeader>
+        <Logo />
+      </LandingPageHeader>
       <HeroPage>
-        <ButtonHero></ButtonHero>
+        <ButtonHero />
       </HeroPage>
 
-    </div>
+    </>
   );
 }
 
